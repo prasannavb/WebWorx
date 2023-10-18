@@ -1,0 +1,446 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+  * {
+      margin: 0%;
+      border: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  html,
+  body {
+      width: 100%;
+      height: 100%;
+      background-image: url('https://www.cio.com/wp-content/uploads/2023/02/big_data_analytics_analysis_thinkstock_673266772-100749739-orig-1.jpg?quality=50&strip=all');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .main {
+      width: 100%;
+      height: auto;
+      display: none;
+  }
+
+  .pre-loader {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background-color: black;
+      color: transparent;
+      left: 0%;
+      top: 0%;
+  }
+
+  .pre-load-text {
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-size: 1000%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: title;
+      animation-duration: 1.5s;
+      background-image: url('https://www.cio.com/wp-content/uploads/2023/02/big_data_analytics_analysis_thinkstock_673266772-100749739-orig-1.jpg?quality=50&strip=all');
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .home {
+      width: 100%;
+      height: 100%;
+      padding: 1%;
+  }
+
+  .navbar {
+      width: 98%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: transparent;
+  }
+
+  .image {
+      width: 20%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: x-large;
+  }
+
+  .nav-contents {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .nav-item,
+  .nav-btn {
+      height: 100%;
+      width: fit-content;
+      padding: 2%;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      color: white;
+      font-size: large;
+      font-weight: 200;
+  }
+
+  .nav-btn:hover,
+  .nav-item:hover {
+      color: goldenrod;
+
+  }
+
+  .nav-btn {
+      height: 50%;
+      border-radius: 10px;
+      border-color: black;
+      border-style: solid;
+      border-width: 1px;
+  }
+
+  .nav-item:after {
+      content: "";
+      width: 0%;
+      background-color: goldenrod;
+      height: 3px;
+      position: absolute;
+      top: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in;
+
+  }
+
+  .nav-item:hover::after {
+      width: 5%;
+  }
+
+  .nav-btn:hover {
+      background-color: goldenrod;
+      color: white;
+      animation-name: animation-btn;
+      animation-duration: 4s;
+      animation-timing-function: ease-in;
+  }
+
+  .home-about {
+      width: 98%;
+      height: 90%;
+      padding: 1%;
+  }
+
+  .home-title {
+      width: 30%;
+      font-size: 300%;
+      color: white;
+      margin: 1%;
+  }
+
+  .home-subtitle {
+      width: 30%;
+      font-size: x-large;
+      color: white;
+      margin-left: 1%;
+  }
+
+  .home-btn {
+      width: 10%;
+      height: 10%;
+      margin: 1%;
+      background-color: goldenrod;
+      color: white;
+      border-radius: 10px;
+      font-size: large;
+      cursor: pointer;
+  }
+
+  body,
+  html {
+      margin: 0;
+      padding: 0;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  @media only screen and (min-width: 768px) {
+      .footer {
+          background-color: black;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 3%;
+          color: white;
+
+      }
+
+      .logo_footer {
+
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+      }
+
+      .options {
+
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          padding: 1%;
+
+      }
+
+      .link {
+          text-decoration: none;
+
+          color: white;
+          margin: 1%;
+      }
+
+      .fbutton {
+          width: 50%;
+          border: 2px solid goldenrod;
+          background-color: goldenrod;
+          color: white;
+          cursor: pointer;
+          padding: 2%;
+          margin: 1%;
+          border-radius: 10px;
+      }
+
+      .contact {
+
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 1%;
+
+      }
+
+      .textarea {
+          resize: none;
+          max-width: 100%;
+      }
+
+      .submitbtn {
+          width: 50%;
+          border: 2px solid goldenrod;
+          background-color: goldenrod;
+          color: white;
+          cursor: pointer;
+          padding: 2%;
+          margin: 1%;
+          border-radius: 10px;
+      }
+
+      .social {
+
+          width: 20%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: space-between;
+          padding: 1%;
+          text-align: center;
+
+
+      }
+
+      #icon {
+          margin: 1%;
+          color: white;
+      }
+
+      i {
+          cursor: pointer;
+      }
+
+      .wix {
+          border-bottom: 2px solid white;
+      }
+  }
+
+  @media only screen and (max-width: 767px) {
+      .footer {
+          background-color: black;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 3%;
+          color: white;
+
+          text-align: center;
+
+      }
+
+      .logo_footer {
+
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          margin: 1%;
+      }
+
+      .options {
+
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+          padding: 0.5%;
+          margin: 1%;
+
+
+      }
+
+      .link {
+          text-decoration: none;
+
+          color: white;
+      }
+
+      .fbutton {
+          width: 25%;
+          border: 2px solid orangered;
+          background-color: orangered;
+          color: white;
+          cursor: pointer;
+          padding: 0.5%;
+          margin: 1%;
+          border-radius: 10px;
+      }
+
+      .contact {
+
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 1%;
+          margin: 1%;
+
+
+      }
+
+      .textarea {
+          resize: none;
+      }
+
+      .submitbtn {
+          width: 25%;
+          border: 2px solid orangered;
+          background-color: orangered;
+          color: white;
+          cursor: pointer;
+          padding: 0.5%;
+          margin: 1%;
+          border-radius: 10px;
+      }
+
+      .social {
+
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: space-between;
+          padding: 1%;
+          text-align: center;
+          margin: 1%;
+
+
+
+      }
+
+      #icon {
+          margin: 1%;
+          color: white;
+          
+      }
+
+      i {
+          cursor: pointer;
+      }
+
+      .wix {
+          border-bottom: 2px solid white;
+      }
+  }
+
+  @keyframes animation-btn {
+      0% {
+          background: linear-gradient(to right, 0%red, 100%white);
+      }
+
+      25% {
+          background: linear-gradient(to right, 25%red, 75%white);
+
+      }
+
+      50% {
+          background: linear-gradient(to right, 50%red, 50% white);
+
+      }
+
+      75% {
+          background: linear-gradient(to right, 75%red, 25%white);
+
+      }
+
+      100% {
+          background: linear-gradient(to right, 100%red, 0%white);
+
+      }
+  }
+
+  @keyframes title {
+      0% {
+          font-size: 1000%;
+      }
+
+      25% {
+          font-size: 1250%;
+      }
+
+      50% {
+          font-size: 1500%;
+      }
+
+      75% {
+          font-size: 1750%;
+      }
+
+      100% {
+          font-size: 2000%;
+      }
+  }
